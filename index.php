@@ -4,7 +4,6 @@
     exit;
   }
   error_reporting(0);
-  include('principal.php')
 ?>
 
 <!DOCTYPE html>
@@ -152,34 +151,84 @@
 </head>
 <body>
     <header>
-      <a href="principal.html">
-        <h2>Sair para o Login</h2>
-      </a>
+      <a href="principal.html"><h2>Sair para o Login</h2></a>
       <h1>Raissa's Cosmetics</h1>
       <p>A beleza está em você.</p>
     </header>
+
     <body>
         <main>
           <h1>Nossos produtos</h1>
-          
+
             <section id="batons">
               <h2>Batons</h2>
-              <a href="vendas/batom1.php"><div><img src="imagens/batom1.jpg" alt="batom"> <p>Batom 1</p><p class="preco">R$ 30,00</p></div></a>
-              <a href="vendas/batom2.php"><div><img src="imagens/batom2.jpg" alt="batom"><p>Batom 2</p><p class="preco">R$ 30,00</p></div></a>
-              <a href="vendas/batom3.php"><div><img src="imagens/batom3.jpg" alt="batom"><p>Batom 3</p><p class="preco">R$ 30,00</p></div></a>
-              <a href="vendas/batom4.php"><div><img src="imagens/batom4.jpg" alt="batom"><p>Batom 4</p><p class="preco">R$ 30,00</p></div></a>
+              <a href="vendas/batom1.html">
+                <div>
+                  <img src="imagens/batom1.jpg" alt="batom"><input type="hidden" name="produto" value="batom1">
+                  <p>Batom 1</p>
+                  <p class="preco">R$ 30,00</p>
+                </div></a>
+              <a href="vendas/batom2.html">
+                <div>
+                  <img src="imagens/batom2.jpg" alt="batom"><input type="hidden" name="produto" value="batom2">
+                  <p>Batom 2</p>
+                  <p class="preco">R$ 30,00</p>
+                </div></a>
+              <a href="vendas/batom3.html">
+                <div>
+                  <img src="imagens/batom3.jpg" alt="batom"><input type="hidden" name="produto" value="batom3">
+                  <p>Batom 3</p>
+                  <p class="preco">R$ 30,00</p>
+                </div></a>
+              <a href="vendas/batom4.html">
+                <div>
+                  <img src="imagens/batom4.jpg" alt="batom"><input type="hidden" name="produto" value="batom4">
+                  <p>Batom 4</p>
+                  <p class="preco">R$ 30,00</p>
+                </div></a>
             </section>
 
             <section>
               <h2>Perfumes e Maquiagem</h2>
-              <a href="vendas/maquiagem.php"><div><img src="imagens/maquiagem.jpg" alt="maquiagem"><p>Maquiagem</p><p class="preco">R$ 100,00</p></div></a>
-              <a href="vendas/perfume1.php"><div><img src="imagens/perfume1.jpg" alt="perfume"><p>Perfume 1</p><p class="preco">R$ 100,00</p></div></a>
-              <a href="vendas/perfume2.php"><div><img src="imagens/perfume2.jpg" alt="perfume"><p>Perfume 2</p><p class="preco">R$ 100,00</p></div></a><br>
-              <a href="vendas/perfume3.php"><div><img src="imagens/perfume3.jpg" alt="perfume"><p>Perfume 3</p><p class="preco">R$ 100,00</p></div></a>
-              <a href="vendas/perfume4.php"><div><img src="imagens/perfume4.jpg" alt="perfume"><p>Perfume 4</p><p class="preco">R$ 100,00</p></div></a>
-              <a href="vendas/perfume5.php"><div><img src="imagens/perfume5.jpg" alt="perfume"><p>Perfume 5</p><p class="preco">R$ 100,00</p></div></a>
+              <a href="vendas/maquiagem.html">
+                <div>
+                  <img src="imagens/maquiagem.jpg" alt="maquiagem"><input type="hidden" name="produto" value="maquiagem">
+                  <p>Maquiagem</p>
+                  <p class="preco">R$ 100,00</p>
+                </div></a>
+              <a href="vendas/perfume1.html">
+                <div>
+                  <img src="imagens/perfume1.jpg" alt="perfume"><input type="hidden" name="produto" value="perfume1">
+                  <p>Perfume 1</p>
+                  <p class="preco">R$ 100,00</p>
+                </div></a>
+              <a href="vendas/perfume2.html">
+                <div>
+                  <img src="imagens/perfume2.jpg" alt="perfume"><input type="hidden" name="produto" value="perfume2">
+                  <p>Perfume 2</p>
+                  <p class="preco">R$ 100,00</p>
+                </div></a><br>
+              <a href="vendas/perfume3.html">
+                <div>
+                  <img src="imagens/perfume3.jpg" alt="perfume"><input type="hidden" name="produto" value="perfume3">
+                  <p>Perfume 3</p>
+                  <p class="preco">R$ 100,00</p>
+                </div></a>
+              <a href="vendas/perfume4.html">
+                <div>
+                  <img src="imagens/perfume4.jpg" alt="perfume"><input type="hidden" name="produto" value="perfume4">
+                  <p>Perfume 4</p>
+                  <p class="preco">R$ 100,00</p>
+                </div></a>
+              <a href="vendas/perfume5.html">
+                <div>
+                  <img src="imagens/perfume5.jpg" alt="perfume"><input type="hidden" name="produto" value="perfume5">
+                  <p>Perfume 5</p>
+                  <p class="preco">R$ 100,00</p>
+                </div></a>
             </section>
         </main>
+        
         <footer><p>Feito por <a href="https://github.com/DaviPerazzoli" target="_blank">Davi Fernando Perazzoli</a></p></footer>
     </body>
 </body>

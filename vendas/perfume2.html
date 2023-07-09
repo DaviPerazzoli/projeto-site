@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raissa's Cosmetics | Compra</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <img src="../imagens/perfume2.jpg" alt="Batom">
+        <form action="compra.php" method="post">
+            <input type="hidden" name="prod" id="iprod" value="100">
+            <p>
+                <label for="iqtd">Quantidade </label>
+                <input type="number" name="qtd" id="iqtd" required size="14">
+            </p>
+            <p>
+                <input type="submit" value="Comprar" id="botao">
+            </p>
+        </form>
+    </main>
+</body>
+</html>
